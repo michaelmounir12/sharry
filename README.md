@@ -146,8 +146,12 @@ If the image is private, only the owner can access it.
    spring.datasource.url=jdbc:mysql://localhost:3306/sharry
    spring.datasource.username=root
    spring.datasource.password=yourpassword
-   aws.s3.bucket.name=your-bucket-name
-   jwt.secret=your-secret-key
+   
+   aws.accessKeyId=id
+   aws.secretAccessKey=access key
+   aws.region=region
+   aws.s3.bucket=bucket name
+   
    ```
 
 3. Build and run the app:
